@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="me.teremasov.conwaylife" version="1.0.0">
+    <author email="vit@teremasov.me" href="https://teremasov.me">vteremasov</author>
+    <profile name="wearable"/>
+    <watch-application ambient-support="true" appid="me.teremasov.conwaylife" exec="conwaylife">
+        <label>Conwaylife</label>
+        <icon>conwaylife.png</icon>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+</manifest>
